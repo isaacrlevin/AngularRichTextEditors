@@ -1,0 +1,16 @@
+<div class='container'>
+  <h1 class="text-center">NGX-Editor</h1>
+  <h4 class="text-center">
+    <a href='https://github.com/Sibiraj-S/ngx-editor' target="_blank">Github</a>
+  </h4>
+  <div class="editor block">
+    <app-ngx-editor [config]="editorConfig" [spellcheck]="true" [(ngModel)]="content"></app-ngx-editor>
+  </div>
+  <br /><br />
+  <div class="htmlblock block">
+    <h6>HTML Output</h6>
+    <div class="html">
+      {{ content }}
+    </div>
+  </div>
+</div>

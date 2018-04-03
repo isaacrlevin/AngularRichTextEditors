@@ -1,0 +1,16 @@
+  pre {
+    background: #f1f1f1;
+    border-radius: 3px;
+    padding: 0 1rem;
+  }
+  mark {
+    background-color: #f1f1f1;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+  }
+
+  .fa
+  {
+font-size: 12px !important;
+  }
+  

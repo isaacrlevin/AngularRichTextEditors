@@ -1,0 +1,14 @@
+<div class='container'>
+  <h1 class="text-center">Quill</h1>
+  <h4 class="text-center">
+    <a href='https://github.com/KillerCodeMonkey/ngx-quill' target="_blank">Github</a>
+  </h4>
+  <quill-editor [(ngModel)]="content"></quill-editor>
+  <br /><br />
+  <div class="htmlblock block">
+    <h6>HTML Output</h6>
+    <div class="html">
+      {{ content }}
+    </div>
+  </div>
+</div>

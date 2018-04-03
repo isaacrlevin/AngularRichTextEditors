@@ -1,0 +1,44 @@
+<div class='container-fluid' style='padding-left:50px;'>
+        <div class='row'>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/"]'>
+                        Home
+                    </a>
+                </div>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/angular-markdown"]'>
+                        Markdown
+                    </a>
+                </div>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/ngx-editor"]'>
+                        NGX-Editor
+                    </a>
+                </div>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/froala"]'>
+                        Froala
+                    </a>
+                </div>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/quill"]'>
+                        Quill
+                    </a>
+                </div>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/tiny-mce"]'>
+                        TinyMCE
+                    </a>
+                </div>
+                <div class="col" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                    <a [routerLink]='["/ckeditor"]'>
+                        CKEditor
+                    </a>
+                </div>
+        </div>
+        <div class='row' style='margin-top: 50px;'>
+            <div class='body-content' style="width: 100%">
+                <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

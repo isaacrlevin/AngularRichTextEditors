@@ -1,0 +1,14 @@
+<div class='container'>
+  <h1 class="text-center">Froala</h1>
+  <h4 class="text-center">
+    <a href='https://github.com/froala/angular-froala-wysiwyg' target="_blank">Github</a>
+  </h4>
+  <div [froalaEditor] [(froalaModel)]="content"></div>
+  <br /><br />
+  <div class="htmlblock block">
+    <h6>HTML Output</h6>
+    <div class="html">
+      {{ content }}
+    </div>
+  </div>
+</div>

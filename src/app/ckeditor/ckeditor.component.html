@@ -1,0 +1,18 @@
+<div class='container'>
+  <h1 class="text-center">CKEditor</h1>
+  <h4 class="text-center">
+    <a href='https://github.com/chymz/ng2-ckeditor' target="_blank">Github</a>
+  </h4>
+  <ckeditor [(ngModel)]="content" debounce="500">
+    <p>Hello
+      <strong>world</strong>
+    </p>
+  </ckeditor>
+  <br /><br />
+  <div class="htmlblock block">
+    <h6>HTML Output</h6>
+    <div class="html">
+      {{ content }}
+    </div>
+  </div>
+</div>

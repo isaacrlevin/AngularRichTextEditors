@@ -1,4 +1,4 @@
-# AngularRichTextEditors
+# Angular Rich Text Editors
 This repo includes samples for some Rich Text Editors that exist. They include
 
 * [Markdown Based](https://github.com/dimpu/ngx-md)
